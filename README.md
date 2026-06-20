@@ -2,10 +2,10 @@ Projectile Motion Simulation
 
 A standalone desktop application that simulates and visualizes projectile motion trajectories.
 
-#Libraries#
-Tkinter (GUI)
-Matplotlib(Plotting)
-* **Numpy** (Physics/Math)
+##Libraries##  
+Tkinter (GUI) 
+Matplotlib(Plotting) 
+Numpy(Physics/Math)
 
  Insturctions
 1. Download the ZIP file from the **Releases** section on the right.
