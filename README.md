@@ -1,5 +1,15 @@
-This is a Simulation Model for "Projectile Motion" which a Standalone application.
-The libraries I have used to build this are : Matplotlib, Numpy, Tkinter(basic GUI)
-To install this go to the releast section and download the zip file of the project.
-Unzip the file and run the exe file
-Use provide some initial inputs or run using default inputs.
+Projectile Motion Simulation
+
+A standalone desktop application that simulates and visualizes projectile motion trajectories.
+
+#Libraries#
+Tkinter (GUI)
+Matplotlib(Plotting)
+* **Numpy** (Physics/Math)
+
+ Insturctions
+1. Download the ZIP file from the **Releases** section on the right.
+2. Extract the ZIP folder.
+3. Run the `.exe` file.
+
+*Note: You can input your own parameters or run the simulation using the default values.*
