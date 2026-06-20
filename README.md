@@ -4,9 +4,12 @@ A standalone desktop application that simulates and visualizes projectile motion
 
   Libraries  
 
-Tkinter (GUI) 
-Matplotlib(Plotting) 
-Numpy(Physics/Math)
+*Tkinter (GUI)  
+
+*Matplotlib(Plotting)  
+
+*Numpy(Physics/Math) 
+
 
  Instructions
 1. Download the ZIP file from the **Releases** section on the right.
