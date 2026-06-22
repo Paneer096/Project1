@@ -26,7 +26,7 @@ def run_simulation(v, angle_deg, g, x0, y0):
         vx = -vx
     vy_initial = abs(v) * np.sin(theta)
 
-    # realtime coordinates
+    # Realtime coordinates
 
     discriminant = vy_initial**2 + 2 * g * y0
     t_flight = (vy_initial + np.sqrt(discriminant)) / g if discriminant >=0 else 0.01
@@ -106,7 +106,7 @@ def start_simulation():
         messagebox.showerror("Error", "Please enter valid numeric values.")
 
 
-# Its for GUI 
+# It"s for GUI 
 root = tk.Tk()
 root.title("Projectile Motion Simulator")
 
@@ -123,7 +123,7 @@ entry_angle.insert(0, "45")
 tk.Label(root, text="Gravity (m/s²):").grid(row=2, column=0, padx=10, pady=5, sticky="w")
 entry_gravity = tk.Entry(root)
 entry_gravity.grid(row=2, column=1)
-entry_gravity.insert(0, "9.8")
+entry_gravity.insert(0, "9.81")
 
 tk.Label(root, text="Initial X-coordinate:").grid(row=3, column=0, padx=10, pady=5, sticky="w")
 entry_x0 = tk.Entry(root)
